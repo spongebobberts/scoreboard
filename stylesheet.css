@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h3,
+.container label {
+    margin: 0;
+}
+
